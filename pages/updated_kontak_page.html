@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi Alim Avandi untuk pertanyaan, kolaborasi, atau saran.">
+    <title>Kontak - Alim Avandi.Dev</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="../index.html" class="brand">Alim Avandi.Dev</a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <!-- Menambahkan aria-current="page" pada link aktif -->
+                    <li class="nav-item"><a href="../index.html" class="nav-link">🏠 Beranda</a></li>
+                    <li class="nav-item"><a href="tentang_saya_page.html" class="nav-link">👤 Tentang Saya</a></li>
+                    <li class="nav-item"><a href="jaringan_komputer_page.html" class="nav-link">🌐 Jaringan Komputer</a></li>
+                    <li class="nav-item"><a href="iot_arduino_page.html" class="nav-link">🤖 IoT & Arduino</a></li>
+                    <li class="nav-item"><a href="galeri_proyek_page.html" class="nav-link">💡 Galeri Proyek</a></li>
+                    <li class="nav-item"><a href="updated_kontak_page.html" class="nav-link active" aria-current="page">📬 Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section bg-light">
+            <div class="container text-center">
+                <h1>Hubungi Saya</h1>
+                <p>Mari berdiskusi tentang proyek, kolaborasi, atau sekadar menyapa.</p>
+            </div>
+        </section>
+
+        <section class="contact-section section">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <div class="contact-info-card">
+                        <h2>Informasi Kontak</h2>
+                        <ul class="contact-details">
+                            <li>
+                                <strong>Email:</strong>
+                                <a href="mailto:[EMAIL]">[EMAIL]</a>
+                            </li>
+                            <li>
+                                <strong>Sekolah:</strong>
+                                <span>[NAMA SEKOLAH]</span>
+                            </li>
+                            <li>
+                                <strong>Kota:</strong>
+                                <span>[KOTA]</span>
+                            </li>
+                            <li>
+                                <strong>GitHub:</strong>
+                                <a href="[LINK GITHUB]" target="_blank" rel="noopener noreferrer">[LINK GITHUB]</a>
+                            </li>
+                            <li>
+                                <strong>Instagram:</strong>
+                                <a href="[LINK INSTAGRAM]" target="_blank" rel="noopener noreferrer">[LINK INSTAGRAM]</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Kirim Pesan</h2>
+                        <!-- Perbaikan: Menghapus atribut onsubmit yang berantakan, logika dipindah ke script.js -->
+                        <form action="#" method="POST" class="contact-form">
+                            
+                            <div class="form-group">
+                                <label for="nama">Nama Pengirim</label>
+                                <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="kategori">Kategori Pesan</label>
+                                <select id="kategori" name="kategori" required>
+                                    <option value="" disabled selected>Pilih Kategori</option>
+                                    <option value="pertanyaan">Pertanyaan</option>
+                                    <option value="kolaborasi">Kolaborasi</option>
+                                    <option value="saran">Saran</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pesan">Pesan</label>
+                                <textarea id="pesan" name="pesan" rows="5" required placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Alim Avandi. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="[LINK GITHUB]" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="[LINK INSTAGRAM]" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="mailto:[EMAIL]">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/updated_script_js.js"></script>
+</body>
+</html>
